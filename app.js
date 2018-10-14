@@ -1,10 +1,10 @@
 function getSum() {
-  var a = $("#a").val()
-  var b = $("#b").val()
+  var a = $("#sa").val()
+  var b = $("#sb").val()
 
   console.log("Summing: " + a + " and " + b);
 
-  $.get("http://localhost:8080/sum/?a=" + a + "&b=" + b, function( data ) {
+  $.get("https://iglotov.devops.srwx.net/api/sum/?a=" + a + "&b=" + b, function( data ) {
     $("body")
       .append(" Status: " + data.Status)
 	  .append(" Result: " + data.Result + "<br>")
@@ -18,7 +18,7 @@ function getDiff() {
 
   console.log("Difference between: " + a + " and " + b);
 
-  $.get("http://localhost:8080/diff/?a=" + a + "&b=" + b, function( data ) {
+  $.get("https://iglotov.devops.srwx.net/api/diff/?a=" + a + "&b=" + b, function( data ) {
     $("body")
       .append(" Status: " + data.Status)
       .append(" Result: " + data.Result + "<br>")
