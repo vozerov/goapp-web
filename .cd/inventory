@@ -1,3 +1,2 @@
 [web]
-api ansible_ssh_host=77.244.213.57
-
+api ansible_ssh_user=www-data ansible_ssh_host=77.244.213.57

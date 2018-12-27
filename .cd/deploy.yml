@@ -19,7 +19,7 @@
       ansistrano_deploy_via: "rsync"
       ansistrano_allow_anonymous_stats: no
 
-      ansistrano_rsync_extra_params: "-e 'ssh -l www-data'"
+      ansistrano_rsync_extra_params: ""
       ansistrano_rsync_set_remote_user: yes
       ansistrano_rsync_path: ""
       ansistrano_rsync_use_ssh_args: no
