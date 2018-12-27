@@ -1,0 +1,3 @@
+[web]
+api ansible_ssh_host=77.244.213.57
+
